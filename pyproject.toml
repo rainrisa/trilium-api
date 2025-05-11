@@ -1,0 +1,12 @@
+[project]
+name = "trilium-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "environs>=14.1.1",
+    "flask>=3.1.0",
+    "ruff>=0.11.9",
+    "trilium-py>=1.2.2",
+]
